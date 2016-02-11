@@ -173,4 +173,4 @@ $ dig +short @resolver1.opendns.com myip.opendns.com
 ###总结
 dig是从DNS服务器获取IP地址的工具，因其可输出详细信息，所以也常用于DNS问题诊断。另外，也介绍了dig在日常生活中的一点小应用。
 
-如A记录，CNAME记录等术语不清楚，请查看[DNS名词解释](quiver:///notes/80CBF1D9-4DE7-4054-B20A-6BDDF3687EC3)
+如A记录，CNAME记录等术语不清楚，请查看[DNS名词解释](https://github.com/MeiXXD/SourceTree/blob/master/DNS%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A.md)
