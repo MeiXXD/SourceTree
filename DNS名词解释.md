@@ -32,7 +32,7 @@ TTL值全称是“生存时间（Time To Live)”，简单的说它表示DNS记�
 泛域名是指在一个域名根下，以 *.Domain.com 的形式表示这个域名根所有未建立的子域名。 
 泛解析是把*.Domain.com 的A 记录解析到某个IP 地址上,然后别人通过任意的前缀.domain.com访问都能访问到你解析的站点上
 例： 
-域名根　 name.com 只建立了 [url]www.name.com[/url] 和 name.com 这两个域名记录， 
+域名根　 name.com 只建立了 [www.name.com](www.name.com) 和 name.com 这两个域名记录， 
 那么 ftp.name.com mail.name.com bbs.name.com 等域名记录是不存在的， 
 但为域名根 name.com 建立泛域名记录 *.name.com 后， 
 *.name.com 就涵盖了 ftp.name.com mail.name.com bbs.name.com 等所有不存在的子域名记录。 
