@@ -28,7 +28,7 @@ public class Test01 {
 
 程序最后的输出结果为：**try**
 
-使用javap查看，`avap -verbose Test01`，发现最后返回的是一个指向try的临时变量。
+使用javap查看，`javap -verbose Test01`，发现最后返回的是一个指向try的临时变量。
 
 >在try语句的return块中，return返回的引用变量（t是引用类型）并不是try语句外定义的引用变量t，而是系统重新定义了一个局部引用t’，这个引用指向了引用t对应的值，也就是try，即使在finally语句中把引用t指向了值finally，因为return的返回引用已经不是t，所以引用t的对应的值和try语句中的返回值无关了。
 
