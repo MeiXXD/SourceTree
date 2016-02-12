@@ -37,10 +37,10 @@ public class Test01 {
 
 ```c
 ...
-  finally {
-			t = "finally";
-			return t;
-	}
+finally {
+	t = "finally";
+	return t;
+}
 ...
 ```
 
@@ -70,10 +70,10 @@ try {
 
 ```c
 ...
-  finally {
-			t = "finally";
-			return t;
-	}
+finally {
+	t = "finally";
+	return t;
+}
 ...
 ```
 
@@ -104,10 +104,10 @@ catch (Exception e) {
 
 ```c
 ...
-  finally {
-			t = "finally";
-			return t;
-	}
+finally {
+	t = "finally";
+	return t;
+}
 ...
 ```
 
@@ -137,10 +137,10 @@ catch (NullPointerException e) {
 
 ```c
 ...
-  finally {
-			t = "finally";
-			return t;
-	}
+finally {
+	t = "finally";
+	return t;
+}
 ...
 ```
 
@@ -153,10 +153,10 @@ catch (NullPointerException e) {
 
 ```c
 ...
-  finally {
-			t = "finally";
-			Integer.parseInt(null);
-	}
+finally {
+	t = "finally";
+	Integer.parseInt(null);
+}
 ...
 ```
 
@@ -164,11 +164,11 @@ catch (NullPointerException e) {
 
 ```c
 ...
-  finally {
-			t = "finally";
-			Integer.parseInt(null);
-			return t;
-	}
+finally {
+	t = "finally";
+	Integer.parseInt(null);
+	return t;
+}
 ...
 ```
 
