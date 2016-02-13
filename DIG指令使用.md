@@ -14,7 +14,7 @@ dig的详细使用，可以通过man dig来获取，这里不再赘述。
 
 下面看一个示例：
 
-```c
+```sh
 $ dig @8.8.8.8 baidu.com A
 
 ; <<>> DiG 9.8.3-P1 <<>> @8.8.8.8 baidu.com A
@@ -53,7 +53,7 @@ dig中经常使用的参数，有两个需要注意：
 
 使用+short，用法如下：
 
-```c
+```sh
 $ dig +short baidu.com
 220.181.57.217
 180.149.132.47
@@ -63,7 +63,7 @@ $ dig +short baidu.com
 
 使用+trace，用法如下：
 
-```c
+```sh
 $ dig +trace baidu.com
 
 ; <<>> DiG 9.8.3-P1 <<>> +trace baidu.com
@@ -123,7 +123,7 @@ baidu.com.		86400	IN	NS	ns7.baidu.com.
 
 下例中出现了gitcafe.io别名记录，此时我们再dig gitcafe.io就可以了。
 
-```c
+```sh
 ...
 leaver.me.		10	IN	CNAME	gitcafe.io.
 leaver.me.		86400	IN	NS	f1g1ns2.dnspod.net.
@@ -155,14 +155,14 @@ gitcafe.io.		600	IN	A	119.81.161.100
 日常生活中，我们应用比较多的就是获取外网IP地址，下面介绍两个办法获取外网的IP：
 * 使用curl指令，缺点是比较慢
 
-```c
+```sh
 $ curl ifconfig.me
 118.72.101.137
 ```
 
 * 使用dig指令，速度快
 
-```c
+```sh
 $ dig +short @resolver1.opendns.com myip.opendns.com
 118.72.101.137
 ```
@@ -173,4 +173,4 @@ $ dig +short @resolver1.opendns.com myip.opendns.com
 ###总结
 dig是从DNS服务器获取IP地址的工具，因其可输出详细信息，所以也常用于DNS问题诊断。另外，也介绍了dig在日常生活中的一点小应用。
 
-如A记录，CNAME记录等术语不清楚，请查看[DNS名词解释](https://github.com/MeiXXD/SourceTree/blob/master/DNS%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A.md)
+如A记录，CNAME记录等术语不清楚，请查看[DNS名词解释](quiver:///notes/80CBF1D9-4DE7-4054-B20A-6BDDF3687EC3)

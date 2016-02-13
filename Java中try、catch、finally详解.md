@@ -2,7 +2,7 @@
 
 ###例1
 
-```c
+```java
 public class Test01 {
 
 	public static String TestTry() {
@@ -35,7 +35,7 @@ public class Test01 {
 ###例2
 其他不变，在finally块中加入return语句
 
-```c
+```java
 ...
 finally {
 	t = "finally";
@@ -51,7 +51,7 @@ finally {
 ###例3
 修改**例1**中的try部分为：
 
-```c
+```java
 ...
 try {
 	t = "try";
@@ -68,7 +68,7 @@ try {
 ###例4
 修改**例3**中的finally部分为：
 
-```c
+```java
 ...
 finally {
 	t = "finally";
@@ -84,7 +84,7 @@ finally {
 ###例5
 修改**例3**中的catch部分为：
 
-```c
+```java
 ...
 catch (Exception e) {
 	// TODO: handle exception
@@ -102,7 +102,7 @@ catch (Exception e) {
 ###例6
 修改**例5**中的finally部分为：
 
-```c
+```java
 ...
 finally {
 	t = "finally";
@@ -118,7 +118,7 @@ finally {
 ###例7
 修改**例3**中的catch部分为：
 
-```c
+```java
 ...
 catch (NullPointerException e) {
 	// TODO: handle exception
@@ -135,7 +135,7 @@ catch (NullPointerException e) {
 ###例8
 修改**例7**中的finally部分为：
 
-```c
+```java
 ...
 finally {
 	t = "finally";
@@ -151,7 +151,7 @@ finally {
 ###例9
 修改**例1**中的finally部分为：
 
-```c
+```java
 ...
 finally {
 	t = "finally";
@@ -162,7 +162,7 @@ finally {
 
 或者修改**例2**中的finally部分为：
 
-```c
+```java
 ...
 finally {
 	t = "finally";

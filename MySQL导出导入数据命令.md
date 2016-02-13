@@ -4,7 +4,7 @@
 
 例如：
 
-```c
+```sh
 mysqldump -u root -p test_schema >/Users/meixxd/Downloads/test_schema.sql
 ```
 
@@ -13,7 +13,7 @@ mysqldump -u root -p test_schema >/Users/meixxd/Downloads/test_schema.sql
 
 例如：
 
-```c
+```sh
 mysqldump -u root -p test_schema score>/Users/meixxd/Downloads/test_schema_score.sql
 ```
 
@@ -24,7 +24,7 @@ mysqldump -u root -p test_schema score>/Users/meixxd/Downloads/test_schema_score
 
 例如：
 
-```c
+```sh
 mysqldump -u root -p -d test_schema >/Users/meixxd/Downloads/test_schema_d.sql
 ```
 
@@ -33,7 +33,7 @@ mysqldump -u root -p -d test_schema >/Users/meixxd/Downloads/test_schema_d.sql
 
 例如：
 
-```c
+```sh
 $ mysql -u root -p
 ...
 
@@ -73,7 +73,7 @@ mysql> source /Users/meixxd/Downloads/test_schema.sql;
 
 例如：
 
-```c
+```sh
 mysql> describe score;
 +-------+------------------+------+-----+---------+----------------+
 | Field | Type             | Null | Key | Default | Extra          |
