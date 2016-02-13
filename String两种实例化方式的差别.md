@@ -1,6 +1,9 @@
 我们知道String有两种实例化方式：
-1. String str1 = “hello”;
+
+```java
+1. String str1 = "hello";
 2. String str2 = new String("hello");
+```
 
 使用过程中，都说要使用第一种，第一种好，但是你知道为什么吗？今天我们就讲一下两种String实例化的差别。
 
