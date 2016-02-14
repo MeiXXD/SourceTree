@@ -1,14 +1,14 @@
 我们知道，Java中API的随机数有两种方式，一个是Math的Random方法，一个是Util的Random()方法。
 
 ###用法的差别
-1. Math生成随机数
+* Math生成随机数
 
 ```java
 //返回一个0.0到1.0的double值
 Math.random();
 ```
 
-2. Util生成随机数
+* Util生成随机数
 
 ```java
 //没有预设种子
