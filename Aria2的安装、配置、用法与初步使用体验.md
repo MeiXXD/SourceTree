@@ -136,6 +136,7 @@ bt-save-metadata=true
 ```
 
 需要注意的是：
+
 1. `dir=Users/XXX/Downloads/`此处需要更改为自己的下载地址
 
 2. `input-file=/etc/aria2/aria2.session` `save-session=/etc/aria2/aria2.session`此处的session文件，可以更改为自己想要的位置。另外，文件需要自己手动创建，执行aria2并不会自动创建这两个文件。创建后注意，需保证**当前用户对其有读写权限**。
