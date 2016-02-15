@@ -137,7 +137,8 @@ bt-save-metadata=true
 
 需要注意的是：
 1. `dir=Users/XXX/Downloads/`此处需要更改为自己的下载地址
-2. `input-file=/etc/aria2/aria2.session` `save-session=/etc/aria2/aria2.session` 此处的session文件，可以更改为自己想要的位置。另外，文件需要自己手动创建，执行aria2并不会自动创建这两个文件。创建后注意，需保证**当前用户对其有读写权限**。
+
+2. `input-file=/etc/aria2/aria2.session` `save-session=/etc/aria2/aria2.session`此处的session文件，可以更改为自己想要的位置。另外，文件需要自己手动创建，执行aria2并不会自动创建这两个文件。创建后注意，需保证**当前用户对其有读写权限**。
 
 更多的配置，可到官方主页查看。
 
@@ -147,7 +148,7 @@ bt-save-metadata=true
 $ aria2c --conf-path=/Users/lifeng/.aria2/aria2.conf
 ```
 
-如果配置文件有错误，执行后，会有提示。如果还是不放心，可以同时ps指令查看pid `ps aux|grep aria2c`。
+如果配置文件有错误，执行后，会有提示。如果还是不放心，可以使用ps指令查看pid `ps aux|grep aria2c`。
 如果配置正确，会看到RPC开始监听。
 
 上述讲的是通过配置文件配置，下面看直接在aria2c命令后加参数的方式。
@@ -171,6 +172,7 @@ Aria2 WebUI界面如下：
 可以使用YAAW进行下载管理。**配置文件正确，打开不会报错。**
 
 YAAW的英文原生地址：[http://binux.github.io/yaaw/demo/#](http://binux.github.io/yaaw/demo/#)
+
 YAAW的中文地址：[http://yaaw.ghostry.cn/](http://yaaw.ghostry.cn/)
 
 YAAW(原生)界面如下：
@@ -190,7 +192,7 @@ $ aria2c --conf-path=/Users/你的用户名/.aria2/aria2.conf -D
 
 ####Aria2GUI既不需要在命令行运行什么，也不需要配置什么文件，只要安装好了aria2，打开Aria2GUI即可使用。
 
-Aria2GUI最为一个MAC的本地App，其实是封装了YAAW，它界面和YAAW一样。既然他不需要配置文件，按照我们上面讲的，那就只剩下aria2c命令后加参数的方式了。查看Aria2GUI包内容，打开Resources下的startaria.sh：
+Aria2GUI为一个MAC的本地App，其实是封装了YAAW，它界面和YAAW一样。既然他不需要配置文件，按照我们上面讲的，那就只剩下aria2c命令后加参数的方式了。查看Aria2GUI包内容，打开Resources下的startaria.sh：
 
 ```sh
 #!/bin/sh
