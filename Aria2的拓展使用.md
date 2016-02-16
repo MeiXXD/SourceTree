@@ -1,4 +1,4 @@
-上篇笔记，介绍了[Aria2的安装、配置、用法与初步使用体验](quiver:///notes/52F8E7CA-95A1-46E0-8053-F98EDBFD18E4)。今天，介绍一下，Aria2更为广泛的用法。
+上篇笔记，介绍了[Aria2的安装、配置、用法与初步使用体验](https://github.com/MeiXXD/SourceTree/blob/master/Aria2%E7%9A%84%E5%AE%89%E8%A3%85%E3%80%81%E9%85%8D%E7%BD%AE%E3%80%81%E7%94%A8%E6%B3%95%E4%B8%8E%E5%88%9D%E6%AD%A5%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C.md)。今天，介绍一下，Aria2更为广泛的用法。
 ###远程下载
 作为一个下载工具，在本机下载固然可以。那么，在机器A上开启了aria2，在机器B上能不能控制A上的aria2进行下载呢？答案是：可以。
 
