@@ -1,3 +1,3 @@
-#SourceTree
+##SourceTree笔记总结
 
-##文章中的环境均为：OSX(10.11) JDK8
+###环境：OSX 10.11, JDK 1.8
