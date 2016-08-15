@@ -11,9 +11,12 @@ Android项目的开发，需要频繁的编译运行，但是随着项目规模�
 * 开启gradle单独的守护进程
 
 在下面的目录下面创建gradle.properties文件：
-  *   `/home/<username>/.gradle/ (Linux)`
-  *   `/Users/<username>/.gradle/ (Mac)`
-  *   `C:\Users\<username>\.gradle (Windows)`
+
+`/home/<username>/.gradle/ (Linux)` 
+
+`/Users/<username>/.gradle/ (Mac)` 
+
+`C:\Users\<username>\.gradle (Windows)` 
 
 并在文件中增加：
 
