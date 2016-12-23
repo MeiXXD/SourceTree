@@ -232,6 +232,7 @@ EventBus.builder().addIndex(new MyEventBusIndex()).installDefaultEventBus();
 
 ###不同版本性能对比
 ![eventbus不同版本性能对比.png](https://ooo.0o0.ooo/2016/12/23/585cddc50409a.png)
+
 使用索引后，性能大幅提升。
 ###我是坑
 
